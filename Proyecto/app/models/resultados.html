@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Partida</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            @font-face {
+            font-family: "Berlin Sans FB Demi";
+            src: url("BerlinSansFBDemi.ttf") format("truetype");
+            }
+        </style>
+    </head>
+    <body>
+        
+
+        <!--Celular-->
+        <main class="d-block d-md-none ms-2">
+            <div class="ms-5 mt-3">
+                <p class="ms-1" style="font-size: 30px; font-family: 'Berlin Sans FB Demi'; color: #750708;">¡Jugador x ganó!</p>
+            </div>
+            <!--Ranking-->
+            <div class="mt-1 pt-1 px-4" style="position: relative; display: inline-block;">
+                <div id="local" style="display: flex"> <!--Ranking Local-->
+                    <img class="img-fluid" src="../../public/assets/UI/rank_localCEL.png" style="width: 100%; max-width: 270px;">
+                </div>
+                <div id="global" style="display: none"> <!--Ranking Global-->
+                    <img class="img-fluid" src="../../public/assets/UI/rank_globalCEL.png" style="width: 100%; max-width: 265px;">
+                </div>
+
+                <!--Cambiar de ranking-->
+                <button onclick="cambiaraLocal()" class="btn btn-sm" style="position: absolute; top: 0; left: 0;"><img id="izquierda" src="../../public/assets/UI/ianc_izq.png" width="50px"></button>
+                <button onclick="cambiaraGlobal()" class="btn btn-sm" style="position: absolute; top: 0; left: 255px;"><img id="derecha" src="../../public/assets/UI/act_der.png" width="50px"></button>
+            </div>
+
+            <div class="ms-4 ps-1 mt-2">
+                <button class="btn btn-sm mb-2 ms-4"><a href="inicio.html"><img src="../../public/assets/UI/Volver_inicio.png" width="200px"></a></button>
+                <button class="btn btn-sm ms-4"><a href="tableros.html"><img src="../../public/assets/UI/reiniciar_partida.png" width="200px"></a></button>
+            </div>
+        </main>
+
+        <script>
+            let derecha = 1;
+
+            function cambiaraGlobal(){
+                if (derecha == 1){
+                    document.getElementById("global").style.display = "flex";
+                    document.getElementById("local").style.display = "none";
+
+                    document.getElementById("izquierda").src = "../../public/assets/UI/act_izq.png";
+                    document.getElementById("derecha").src = "../../public/assets/UI/inac_der.png";
+
+                    derecha = 0;
+                    izquierda = 1;
+                }
+            }
+
+            function cambiaraLocal(){
+                if (derecha == 0){
+                    document.getElementById("global").style.display = "none";
+                    document.getElementById("local").style.display = "flex";
+
+                    document.getElementById("izquierda").src = "../../public/assets/UI/ianc_izq.png";
+                    document.getElementById("derecha").src = "../../public/assets/UI/act_der.png";
+
+                    derecha = 1;
+                }
+
+            }
+        </script>
+
+    </body>
+</html>
