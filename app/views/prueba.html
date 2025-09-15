@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Drag & Drop Cards</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .background {
+    position: relative;
+    width: 100%;
+  }
+  .background img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .card {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    background-color: rgba(255,0,0,0.2); /* temporal para verlas */
+    z-index: 10;
+    cursor: grab;
+  }
+  .game-board {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border: 2px solid black;
+  }
+</style>
+</head>
+<body>
+
+<div class="background">
+  <img src="https://via.placeholder.com/800x300.png?text=Fondo" alt="Fondo">
+  <div class="card" data-id="c1" style="top:10%; left:5%;">&nbsp;</div>
+  <div class="card" data-id="c2" style="top:10%; left:20%;">&nbsp;</div>
+  <div class="card" data-id="c3" style="top:10%; left:35%;">&nbsp;</div>
+</div>
+
+<div class="game-board">
+  <img src="https://via.placeholder.com/800x400.png?text=Tablero" alt="Tablero" style="width:100%; height:auto; display:block;">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
+  const gameBoard = document.querySelector(".game-board");
+
+  cards.forEach(card => {
+    card.setAttribute("draggable", true);
+    card.addEventListener("dragstart", e => {
+      console.log("Arrastrando", card.dataset.id);
+      e.dataTransfer.setData("text/plain", card.dataset.id);
+    });
+  });
+
+  gameBoard.addEventListener("dragover", e => e.preventDefault());
+
+  gameBoard.addEventListener("drop", e => {
+    e.preventDefault();
+    const cardId = e.dataTransfer.getData("text/plain");
+    const card = document.querySelector(`[data-id="${cardId}"]`);
+    if (!card) return;
+
+    const rect = gameBoard.getBoundingClientRect();
+    const x = e.clientX - rect.left + window.scrollX;
+    const y = e.clientY - rect.top + window.scrollY;
+
+    gameBoard.appendChild(card);
+    card.style.position = "absolute";
+    card.style.left = `${x - card.offsetWidth/2}px`;
+    card.style.top = `${y - card.offsetHeight/2}px`;
+  });
+});
+</script>
+
+</body>
+</html>
