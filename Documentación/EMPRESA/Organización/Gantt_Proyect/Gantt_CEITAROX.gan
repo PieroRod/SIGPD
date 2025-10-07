@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-01-01" view-index="0" gantt-divider-location="851" resource-divider-location="300" version="3.3.3316" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-04-01" view-index="0" gantt-divider-location="753" resource-divider-location="300" version="3.3.3316" locale="es_ES">
     <description/>
-    <view zooming-state="default:10" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="467" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="182" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="186" order="2"/>
+    <view zooming-state="default:11" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="411" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="161" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="165" order="2"/>
         <field id="tpd15" name="Notas" width="20" order="3"/>
         <option id="filter.completedTasks" value="false"/>
         <option id="filter.dueTodayTasks" value="false"/>
         <option id="filter.overdueTasks" value="false"/>
         <option id="filter.inProgressTodayTasks" value="false"/>
-        <timeline><![CDATA[26,11]]></timeline>
-        <option id="color.recent"><![CDATA[#006600 #cc00cc #ffcc66 #ff9999 #f4f4f4 #33cc00 #33ff66 #006666 #669900 #ffff33]]></option>
+        <timeline><![CDATA[11,26]]></timeline>
+        <option id="color.recent"><![CDATA[#f4f4f4 #009900 #ffcc66 #cc00cc #333300 #006600 #ff0033 #000099 #ff6666 #ffcc33]]></option>
     </view>
     <view id="resource-table">
         <field id="0" name="Nombre" width="210" order="0"/>
@@ -21,7 +21,7 @@
         <day-types>
             <day-type id="0"/>
             <day-type id="1"/>
-            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
             <only-show-weekends value="false"/>
             <overriden-day-types/>
             <days/>
@@ -40,43 +40,50 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" uid="b88b10f0974246acb6318e9b1f0e36dc" name="CEITAROX" color="#ff6600" meeting="false" start="2025-01-01" duration="185" complete="0" expand="true">
-            <task id="2" uid="ef0d051afd1a49c3b4321b6ab797c500" name="Preproyecto" color="#0099cc" meeting="false" start="2025-05-12" duration="46" complete="0" expand="true">
+        <task id="0" uid="b88b10f0974246acb6318e9b1f0e36dc" name="CEITAROX" color="#ff6600" meeting="false" start="2025-01-01" duration="274" complete="0" expand="true">
+            <task id="2" uid="ef0d051afd1a49c3b4321b6ab797c500" name="Preproyecto" color="#0099cc" meeting="false" start="2025-05-12" duration="124" complete="0" expand="true">
                 <task id="6" uid="328ecd31d95040bd907852d3f0850554" name="Diseño del logotipo y nombre de la empresa" color="#ffcc33" meeting="false" start="2025-05-12" duration="1" complete="0" expand="true">
                     <depend id="7" type="2" difference="0" hardness="Strong"/>
                 </task>
                 <task id="7" uid="7b1651cdde564490889906fa2655db69" name="Cartas de presentación" color="#ff3333" meeting="false" start="2025-05-13" duration="6" complete="0" expand="true"/>
-                <task id="53" uid="0097bf89690e44f0907c8f4e2fb505bf" name="Análisis etnográficos" color="#66ff99" meeting="false" start="2025-05-16" duration="6" complete="0" expand="false">
+                <task id="53" uid="0097bf89690e44f0907c8f4e2fb505bf" name="Análisis etnográficos" color="#66ff99" meeting="false" start="2025-05-16" duration="8" complete="0" expand="false">
                     <task id="22" uid="f466481fad26410c8b7d0e548d5e7753" name="Análisis etnográfico del juego" color="#00cccc" meeting="false" start="2025-05-16" duration="1" complete="0" expand="true">
                         <depend id="26" type="2" difference="0" hardness="Strong"/>
                         <depend id="88" type="2" difference="0" hardness="Strong"/>
+                        <depend id="121" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="23" uid="4844fc9a16d94ce8a248ff73686993e5" name="Análisis etnográfico del juego II" color="#00cccc" meeting="false" start="2025-05-16" duration="1" complete="0" expand="true">
                         <depend id="26" type="2" difference="0" hardness="Strong"/>
                         <depend id="88" type="2" difference="0" hardness="Strong"/>
+                        <depend id="121" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="24" uid="2599a56f30534f368bc46d944e8d8913" name="Análisis etnográfico del juego III" color="#00cccc" meeting="false" start="2025-05-23" duration="1" complete="0" expand="true">
                         <depend id="26" type="2" difference="0" hardness="Strong"/>
                         <depend id="88" type="2" difference="0" hardness="Strong"/>
+                        <depend id="121" type="2" difference="0" hardness="Strong"/>
                     </task>
                 </task>
-                <task id="56" uid="cc4a2b9554604bb49d91664ec0bf30fb" name="Carpetas" color="#990000" meeting="false" start="2025-05-21" duration="39" complete="0" expand="true">
+                <task id="56" uid="cc4a2b9554604bb49d91664ec0bf30fb" name="Carpetas" color="#990000" meeting="false" start="2025-05-21" duration="115" complete="0" expand="true">
                     <task id="9" uid="c3469ff225644444a39e6631fdf031ac" name="Elaboración de estructura de las carpetas" color="#ff3333" meeting="false" start="2025-05-21" duration="3" complete="0" expand="true"/>
-                    <task id="57" uid="f757241187784a98927243920f3dd95b" name="Emprendurismo y Gestión" meeting="false" start="2025-05-26" duration="18" complete="0" expand="true">
+                    <task id="112" uid="0286e22b106241309a86e7d5e7475156" name="Mejoras en los índices y carátulas de las carpetas" color="#ff0033" meeting="false" start="2025-07-30" duration="1" complete="0" expand="true"/>
+                    <task id="57" uid="f757241187784a98927243920f3dd95b" name="Emprendurismo y Gestión" meeting="false" start="2025-05-26" duration="106" complete="0" expand="false">
                         <task id="16" uid="80dfdff33d064b1cbaaa4445c3adbe6e" name="Selfie emprendedor" color="#999900" meeting="false" start="2025-05-26" duration="1" complete="0" expand="true"/>
                         <task id="36" uid="ba80492a2a2e4cb5b6510e4db8d6d234" name="Misión y visión de la empresa" color="#ff3333" meeting="false" start="2025-05-28" duration="9" complete="0" expand="true"/>
                         <task id="38" uid="3bec48c93b7746f195e5486e42133065" name="Valores de la empresa" color="#ff3333" meeting="false" start="2025-05-28" duration="9" complete="0" expand="true"/>
                         <task id="86" uid="5b97f1af08d349d2bda51c21cced7bc7" name="Brief del proyecto" color="#669900" meeting="false" start="2025-06-16" duration="3" complete="0" expand="true"/>
+                        <task id="111" uid="a59eed39847546cf9eeb6ed6fee89e17" name="Inicio del boceto CANVAS" color="#ff0033" meeting="false" start="2025-08-02" duration="2" complete="0" expand="true"/>
+                        <task id="122" uid="56a0d71d3f3144b0a6945ee9180ca754" name="Matriz FODA" color="#009900" meeting="false" start="2025-08-28" duration="5" complete="0" expand="true"/>
+                        <task id="123" uid="2c8835ba87fd474393725ae34f682663" name="Búsqueda del local (sin redactar)" color="#009900" meeting="false" start="2025-09-01" duration="8" complete="0" expand="true"/>
                     </task>
-                    <task id="58" uid="ff2e0fc22a4c42579a934d1cf9690681" name="Física" color="#006600" meeting="false" start="2025-07-01" duration="4" complete="0" expand="true">
+                    <task id="58" uid="ff2e0fc22a4c42579a934d1cf9690681" name="Física" color="#006600" meeting="false" start="2025-07-01" duration="4" complete="0" expand="false">
                         <task id="17" uid="45f2c97429b24539b5cfbd9f61056b54" name="Idea del proyecto (Física)" color="#00cc00" meeting="false" start="2025-07-01" duration="3" complete="0" expand="true"/>
                         <task id="18" uid="b012c7698b1b454e81af5c0f65d305e4" name="Planificación (Física)" color="#00cc00" meeting="false" start="2025-07-01" duration="3" complete="0" expand="true">
                             <depend id="94" type="2" difference="0" hardness="Strong"/>
                         </task>
                         <task id="94" uid="74dbb0046c3a4ac98ac87f7e6bef1332" name="Conceptos físicos aplicados" color="#33cc00" meeting="false" start="2025-07-04" duration="1" complete="0" thirdDate="2025-07-02" thirdDate-constraint="1" expand="true"/>
                     </task>
-                    <task id="59" uid="eb0b029913474a65b3695e5a9ed4bd2b" name="Ingeniería de Software" color="#ffff33" meeting="false" start="2025-05-26" duration="35" complete="0" expand="true">
-                        <task id="88" uid="5458954e895345e98c5236e22b67dd30" name="Especificación de requerimientos" color="#ffcc66" meeting="false" start="2025-05-26" duration="16" complete="0" thirdDate="2025-05-21" thirdDate-constraint="1" expand="true"/>
+                    <task id="59" uid="eb0b029913474a65b3695e5a9ed4bd2b" name="Ingeniería de Software" color="#ffff33" meeting="false" start="2025-05-24" duration="112" complete="0" expand="true">
+                        <task id="88" uid="5458954e895345e98c5236e22b67dd30" name="Especificación de requerimientos" color="#ffcc66" meeting="false" start="2025-05-24" duration="16" complete="0" thirdDate="2025-05-21" thirdDate-constraint="1" expand="true"/>
                         <task id="87" uid="88a3b0cd2a424755b8b78399cf5e6bdf" name="Análisis de factibilidades" color="#ffcc66" meeting="false" start="2025-06-02" duration="3" complete="0" expand="true"/>
                         <task id="28" uid="dda70135de7748bba7870a3164e0ce90" name="Reglamento del equipo" color="#ffcc66" meeting="false" start="2025-06-04" duration="1" complete="0" expand="true">
                             <depend id="97" type="2" difference="0" hardness="Strong"/>
@@ -89,38 +96,44 @@
                         <task id="84" uid="cc8348b63517418fbacad6c9c20bd0f1" name="Definición de roles" color="#ffcc66" meeting="false" start="2025-07-07" duration="1" complete="0" expand="true"/>
                         <task id="85" uid="dfd68101dd2a493bb7ca7bdec78f43a8" name="Proyecto 4P" color="#ffcc66" meeting="false" start="2025-07-07" duration="1" complete="0" expand="true"/>
                         <task id="96" uid="1678784c38244146b261a5f678ae64d1" name="Árbol de decisiones" color="#ffcc66" meeting="false" start="2025-07-07" duration="5" complete="0" expand="true"/>
+                        <task id="138" uid="0e3e9f6a394a42448752d6b2785b4dff" name="Inicio del desarrollo del Diagrama de clases" color="#ffcc66" meeting="false" start="2025-08-20" duration="22" complete="0" expand="true"/>
+                        <task id="129" uid="981aba00ce0c47f281427445f059821c" name="Cálculo de métricas" color="#ffcc66" meeting="false" start="2025-09-03" duration="7" complete="0" expand="true"/>
+                        <task id="141" uid="648ad7d9e6704cb69099b46a89b65130" name="Plan de contingencia" color="#f4f4f4" meeting="false" start="2025-09-12" duration="1" complete="0" expand="true"/>
+                        <task id="142" uid="9f739a7c592d487eaa19526a15d825f0" name="Análisis costo-beneficio" meeting="false" start="2025-09-12" duration="1" complete="0" expand="true"/>
                     </task>
-                    <task id="60" uid="00ab0004d1f246109ed23070d96d5c5f" name="Proyecto UTULAB" color="#006666" meeting="false" start="2025-06-04" duration="29" complete="0" expand="true">
+                    <task id="60" uid="00ab0004d1f246109ed23070d96d5c5f" name="Proyecto UTULAB" color="#006666" meeting="false" start="2025-06-04" duration="92" complete="0" expand="true">
                         <task id="89" uid="015e11e062c14693adcc8771dc0db1aa" name="Objetivos generales y específicos" color="#33ff66" meeting="false" start="2025-07-08" duration="1" complete="0" expand="true"/>
                         <task id="90" uid="48a865478acc49c989a01c1ab849f86c" name="Información empresarial" color="#33ff66" meeting="false" start="2025-07-08" duration="1" complete="0" expand="true"/>
                         <task id="92" uid="04698d93a3224827b0dff6a220d20a46" name="Excel" meeting="false" start="2025-07-14" duration="1" complete="0" thirdDate="2025-07-14" thirdDate-constraint="1" expand="true"/>
                         <task id="91" uid="cac3a3bf6b764d4bad523ec7545d1041" name="Prototipo tablero explicación" color="#33ff66" meeting="false" start="2025-06-04" duration="1" complete="0" expand="true"/>
                         <task id="31" uid="f59a88620bb54ff0879e6ab3e4b08472" name="Procedimiento prototipo del dado en cartón" color="#33ff66" meeting="false" start="2025-06-04" duration="1" complete="0" expand="true"/>
+                        <task id="130" uid="8c5c12489a5d4345a2c1b89af9ddfd62" name="Fichas (redacción)" color="#ffcc66" meeting="false" start="2025-09-01" duration="3" complete="0" expand="true"/>
                     </task>
-                    <task id="61" uid="14e259f243b9451eb076ae92be4cd4b0" name="Sociología" color="#8cb6ce" meeting="false" start="2025-06-25" duration="5" complete="0" expand="true">
+                    <task id="61" uid="14e259f243b9451eb076ae92be4cd4b0" name="Sociología" color="#8cb6ce" meeting="false" start="2025-06-25" duration="7" complete="0" expand="true">
                         <task id="106" uid="58479be9b77d42568784316137c6e974" name="Introducción" meeting="false" start="2025-06-25" duration="1" complete="0" expand="true"/>
                         <task id="107" uid="98789e9bb8d040798b341ce208d5b7cc" name="Presentación del proyecto" meeting="false" start="2025-06-25" duration="1" complete="0" expand="true"/>
                         <task id="108" uid="8b702735f9734973ab6015406e7cade0" name="Explicación sobre el funcionamiento del juego" meeting="false" start="2025-06-25" duration="2" complete="0" expand="true"/>
                         <task id="109" uid="405d50428f344b69819fa65f53aed4b9" name="Fundamentación" meeting="false" start="2025-06-25" duration="5" complete="0" expand="true"/>
                         <task id="110" uid="1143bfa6c41042a2b9239ed0ce9b867a" name="Marco teórico" meeting="false" start="2025-07-01" duration="1" complete="0" expand="true"/>
                     </task>
-                    <task id="62" uid="da51ed3142e948cd9a9050d51f7d5d2d" name="Programación Full-Stack" color="#330033" meeting="false" start="2025-06-09" duration="20" complete="0" expand="true">
+                    <task id="62" uid="da51ed3142e948cd9a9050d51f7d5d2d" name="Programación Full-Stack" color="#330033" meeting="false" start="2025-06-09" duration="26" complete="0" expand="true">
                         <task id="78" uid="b49a60448a2a4ea1a98d103e408aaea2" name="Justificación de las tecnologías a utilizar en el proyecto" color="#cc00cc" meeting="false" start="2025-06-13" duration="12" complete="0" expand="true"/>
                         <task id="81" uid="9bc1e69b47d74251a6677c1db55bd03a" name="Prototipo de interfaz de usuario" color="#cc00cc" meeting="false" start="2025-06-09" duration="2" complete="0" expand="true"/>
                         <task id="82" uid="c60e90341a614b79bfc6b0daa31ebf57" name="Análisis de PHP y ventajas frente a otras alternativas" meeting="false" start="2025-06-10" duration="3" complete="0" expand="true"/>
                         <task id="101" uid="501975f9ab0b4624afb82334e25fdb43" name="Explicación del prototipo" color="#cc00cc" meeting="false" start="2025-07-04" duration="1" complete="0" expand="true"/>
                     </task>
-                    <task id="63" uid="779e0430dce840cba9fb99dc0c456347" name="Inglés" color="#ff0066" meeting="false" start="2025-06-16" duration="1" complete="0" expand="false">
+                    <task id="63" uid="779e0430dce840cba9fb99dc0c456347" name="Inglés" color="#ff0066" meeting="false" start="2025-06-16" duration="45" complete="0" expand="true">
                         <task id="80" uid="fe632bd3ce304592bfee935b078ce550" name="Carta de presentación" color="#ff6666" meeting="false" start="2025-06-16" duration="1" complete="0" expand="true"/>
                         <task id="79" uid="6e9aefb1c7ca44bab6357344471fea5e" name="Misión y visión de la empresa" color="#ff6666" meeting="false" start="2025-06-16" duration="1" complete="0" expand="true"/>
+                        <task id="113" uid="c0ba9d027a834275a448b8a4364d45a5" name="Eliminación de la carta de presentación de la empresa" color="#ff6666" meeting="false" start="2025-07-30" duration="1" complete="0" expand="true"/>
                     </task>
-                    <task id="64" uid="15caf007bd32461789b43f648a7ca201" name="Adm. de Sistemas Operativos" color="#99cc00" meeting="false" start="2025-05-23" duration="34" complete="0" expand="true">
+                    <task id="64" uid="15caf007bd32461789b43f648a7ca201" name="Adm. de Sistemas Operativos" color="#99cc00" meeting="false" start="2025-05-23" duration="94" complete="0" expand="true">
                         <task id="13" uid="98adc4a92eb542cea808329093ecf9cc" name="Elección del sistema operativo" color="#ffff33" meeting="false" start="2025-05-23" duration="3" complete="0" expand="true">
                             <depend id="12" type="2" difference="0" hardness="Strong"/>
                             <depend id="54" type="2" difference="0" hardness="Strong"/>
                         </task>
-                        <task id="12" uid="62e26ca9aa414be88e4418917a27f300" name="Justificación de la elección del sistema operativo" color="#00cc00" meeting="false" start="2025-05-28" duration="3" complete="0" expand="true"/>
-                        <task id="54" uid="ee328ac29e2b424980c91deb2ff8e8dd" name="Manuales de instalación del sistema operativo" color="#006600" meeting="false" start="2025-05-28" duration="24" complete="0" expand="false">
+                        <task id="12" uid="62e26ca9aa414be88e4418917a27f300" name="Justificación de la elección del sistema operativo" color="#00cc00" meeting="false" start="2025-05-26" duration="3" complete="0" expand="true"/>
+                        <task id="54" uid="ee328ac29e2b424980c91deb2ff8e8dd" name="Manuales de instalación del sistema operativo" color="#006600" meeting="false" start="2025-05-28" duration="34" complete="0" expand="false">
                             <task id="15" uid="e9d71d8eee244d55b1cd924b6e551745" name="Manual de instalación del sistema operativo" color="#00cc00" meeting="false" start="2025-05-28" duration="3" complete="0" expand="true"/>
                             <task id="55" uid="b345b98a20404741af6e21459ade4256" name="Manual de intalación del sistema operativo (en VM)" color="#00cc00" meeting="false" start="2025-06-30" duration="1" complete="0" expand="true"/>
                         </task>
@@ -129,15 +142,19 @@
                         </task>
                         <task id="104" uid="a4f43649383d4891a90f3e0355bbbea7" name="Verificación firewall y systemctl" color="#006600" meeting="false" start="2025-07-09" duration="1" complete="0" thirdDate="2025-07-08" thirdDate-constraint="1" expand="true"/>
                         <task id="105" uid="9a6786a1e72c4c3c8c4e1a7f070abd5b" name="Configuración SSH" color="#006600" meeting="false" start="2025-07-09" duration="1" complete="0" expand="true"/>
+                        <task id="114" uid="09e8392ab41a4e98a00ebe56b3511a67" name="Correción en la utilización del término rich rules  y errores de tipeo en la carpeta" color="#006600" meeting="false" start="2025-07-30" duration="1" complete="0" expand="true"/>
+                        <task id="116" uid="66b378d3a50b43119f3b17b06a042ee3" name="Modificación artículo &quot;Configuración SSH&quot;" color="#006600" meeting="false" start="2025-08-22" duration="1" complete="0" expand="true"/>
+                        <task id="115" uid="d10b7cd006664416bcaded26678ad50b" name="Redacción (implementación clave pública-privada)" color="#006600" meeting="false" start="2025-08-20" duration="5" complete="0" expand="true"/>
                     </task>
                 </task>
-                <task id="77" uid="23ad2ff6459846af86a961128df2953d" name="Organización" color="#000066" meeting="false" start="2025-05-19" duration="41" complete="0" expand="true">
+                <task id="77" uid="23ad2ff6459846af86a961128df2953d" name="Organización" color="#000066" meeting="false" start="2025-05-19" duration="47" complete="0" expand="true">
                     <task id="21" uid="1b1f8f8f6356468eb23437934b99a553" name="Elaboración Gantt" color="#0000ff" meeting="false" start="2025-05-19" duration="41" complete="0" expand="true"/>
                     <task id="76" uid="e39d5dc6529d479ea68709a0ee712fea" name="Elaboración tabla de tareas (excel)" color="#6666ff" meeting="false" start="2025-06-11" duration="24" complete="0" expand="true"/>
                 </task>
                 <task id="41" uid="947e6c1559014ebe97ab0f1bf14eec94" name="Justifficación de la elección de coordinadores" color="#ff3333" meeting="false" start="2025-06-11" duration="6" complete="0" expand="true"/>
-                <task id="39" uid="cf26629f7909402ab4d36c1a48685a9d" name="Entrevistas" meeting="false" start="2025-05-21" duration="23" complete="0" expand="false">
-                    <task id="40" uid="01d84fc4e83e43a481656fbb4cae60e4" name="Planteo" color="#ff3399" meeting="false" start="2025-05-21" duration="23" complete="0" expand="false">
+                <task id="120" uid="173d80000ca2480993be95a3bd113c20" name="Baja oficial de Juancruz y reentrega de la carta de presentación" color="#ff0033" meeting="false" start="2025-08-06" duration="2" complete="0" expand="true"/>
+                <task id="39" uid="cf26629f7909402ab4d36c1a48685a9d" name="Entrevistas" meeting="false" start="2025-05-21" duration="31" complete="0" expand="false">
+                    <task id="40" uid="01d84fc4e83e43a481656fbb4cae60e4" name="Planteo" color="#ff3399" meeting="false" start="2025-05-21" duration="31" complete="0" expand="false">
                         <task id="42" uid="86bf2fd6c1a14b7387cfc60f5b100b63" name="Física" color="#ff99ff" meeting="false" start="2025-06-09" duration="1" complete="0" expand="true"/>
                         <task id="43" uid="1ea153b286ad4c67bbd7e925d297a143" name="Ingeniería de Software" color="#ff99ff" meeting="false" start="2025-06-09" duration="1" complete="0" expand="true"/>
                         <task id="44" uid="dc602a2dd0b547dd8bca2aaab079a81c" name="Proyecto UTULAB" color="#ff99ff" meeting="false" start="2025-06-09" duration="1" complete="0" expand="true"/>
@@ -145,7 +162,7 @@
                         <task id="46" uid="6b5c25e2054e452a958ee1873a448b3e" name="Emprendurismo y gestión" color="#ff99ff" meeting="false" start="2025-06-18" duration="3" complete="0" expand="true"/>
                         <task id="47" uid="76c658f016454878a9e6c4853aa07691" name="Adm. de Sistemas Operativos" color="#ff99ff" meeting="false" start="2025-06-20" duration="1" complete="0" expand="true"/>
                     </task>
-                    <task id="48" uid="1eab9e5d319d4688a28c06bd6f05c5ac" name="Aplicación" color="#ff6666" meeting="false" start="2025-05-22" duration="22" complete="0" expand="true">
+                    <task id="48" uid="1eab9e5d319d4688a28c06bd6f05c5ac" name="Aplicación" color="#ff6666" meeting="false" start="2025-05-22" duration="30" complete="0" expand="true">
                         <task id="95" uid="3a8001e3fd0b4bac865945cfde31bf15" name="Programación Full-Stack" color="#ff9999" meeting="false" start="2025-05-22" duration="1" complete="0" expand="true"/>
                         <task id="49" uid="cf35963f51f345aabbb8dce4bf823f82" name="Ingeniería de Software" color="#ff9999" meeting="false" start="2025-06-18" duration="1" complete="0" expand="true"/>
                         <task id="51" uid="ddb544eb5751498c90fbc212f6f61850" name="Adm. de Sistemas Operativos" color="#ff9999" meeting="false" start="2025-06-20" duration="1" complete="0" expand="true"/>
@@ -153,34 +170,49 @@
                     </task>
                 </task>
             </task>
-            <task id="3" uid="c2523077a767468b8995f445cd897587" name="Diseño" color="#ff3300" meeting="false" start="2025-01-01" duration="134" complete="0" expand="true">
+            <task id="3" uid="c2523077a767468b8995f445cd897587" name="Diseño" color="#ff3300" meeting="false" start="2025-01-01" duration="274" complete="0" expand="true">
                 <task id="10" uid="f484351d90f2432c9b91795cbac8b9e8" name="Diseño de tablero" color="#ffcc33" meeting="false" start="2025-05-21" duration="3" complete="0" expand="true">
                     <depend id="19" type="2" difference="0" hardness="Strong"/>
                     <depend id="20" type="2" difference="0" hardness="Strong"/>
                 </task>
-                <task id="11" uid="b8a5f069f9ad4be8a0fef5c594a68288" name="Diseño 3D de las fichas del juego" meeting="false" start="2025-05-21" duration="3" complete="0" expand="true"/>
+                <task id="11" uid="b8a5f069f9ad4be8a0fef5c594a68288" name="Diseño 3D de las fichas del juego" color="#ffcc33" meeting="false" start="2025-07-14" duration="17" complete="0" expand="true"/>
                 <task id="14" uid="cef06b41de0447f591156a552a5cc30f" name="Diseño 3D del dado" color="#ffcc33" meeting="false" start="2025-01-01" duration="1" complete="0" expand="true"/>
-                <task id="102" uid="4efa37a9e66b46cb94db93d220ac7bfe" name="Diseño UI pantalla de ranking" meeting="false" start="2025-06-16" duration="1" complete="0" expand="true"/>
-                <task id="34" uid="1fbe6bf521b246b3a8d5e9e5fd4a09a8" name="Diseño pantallazos UI/UX" color="#ffcc00" meeting="false" start="2025-05-26" duration="17" complete="0" expand="true">
-                    <task id="20" uid="76bd14d093f042a0a127111163d2e8d2" name="Diseño pantallazos UI/UX para escritorio" color="#ffcc33" meeting="false" start="2025-05-26" duration="16" complete="0" expand="true"/>
+                <task id="102" uid="4efa37a9e66b46cb94db93d220ac7bfe" name="Diseño UI pantalla de ranking" color="#ffcc33" meeting="false" start="2025-06-16" duration="1" complete="0" expand="true"/>
+                <task id="133" uid="70a5e3f09aa048b98f5dd2181b2df3a3" name="Diseño de los llaveros" color="#ffcc66" meeting="false" start="2025-07-16" duration="23" complete="0" expand="true"/>
+                <task id="34" uid="1fbe6bf521b246b3a8d5e9e5fd4a09a8" name="Diseño pantallazos UI/UX" color="#ffcc00" meeting="false" start="2025-05-24" duration="21" complete="0" expand="false">
+                    <task id="20" uid="76bd14d093f042a0a127111163d2e8d2" name="Diseño pantallazos UI/UX para escritorio" color="#ffcc33" meeting="false" start="2025-05-24" duration="16" complete="0" expand="true"/>
                     <task id="29" uid="592d9ca87ae648a3802fc616e877b86c" name="Pantallazos UI/UX para dispositivos móviles" color="#ffcc33" meeting="false" start="2025-06-05" duration="9" complete="0" expand="true"/>
                 </task>
-                <task id="30" uid="4478ea68165e4b91bca86190ed5e4566" name="Prototipo del dado en cartón" color="#ffcc33" meeting="false" start="2025-06-04" duration="1" complete="0" expand="true">
+                <task id="30" uid="4478ea68165e4b91bca86190ed5e4566" name="Prototipo del dado en cartón" color="#ffcc33" meeting="false" start="2025-06-04" duration="1" complete="0" expand="false">
                     <task id="32" uid="5415f85625fc432493683f56016ede87" name="Armado del cubo" color="#ffcc33" meeting="false" start="2025-06-04" duration="1" complete="0" expand="true"/>
                 </task>
-                <task id="19" uid="305ee3c91e0442d4bf22f3ebdf7b3378" name="Prototipo sin funcionamiento (sitio web)" color="#ffcc33" meeting="false" start="2025-05-26" duration="30" complete="0" expand="true"/>
-                <task id="68" uid="a44117d2ea104ace985c0e028a555d21" name="Modelado de datos" meeting="false" start="2025-05-26" duration="31" complete="0" expand="true">
+                <task id="19" uid="305ee3c91e0442d4bf22f3ebdf7b3378" name="Prototipo sin funcionamiento (sitio web)" color="#ffcc33" meeting="false" start="2025-05-24" duration="30" complete="0" expand="true"/>
+                <task id="131" uid="dd51a97d87a147ab807b6ce247f05d85" name="Diseño de los llaveros" color="#ffcc66" meeting="false" start="2025-07-16" duration="23" complete="0" expand="true"/>
+                <task id="68" uid="a44117d2ea104ace985c0e028a555d21" name="Modelado de datos" meeting="false" start="2025-05-26" duration="129" complete="0" expand="true">
                     <task id="26" uid="f42a5ff158354e699feed7f7aa1d2c45" name="Diseño M-ER" color="#ffcc33" meeting="false" start="2025-05-26" duration="22" complete="0" thirdDate="2025-05-26" thirdDate-constraint="1" expand="true">
                         <depend id="69" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="69" uid="a53ea1edf3f94736bd41b6b29d8eb406" name="Pasaje a tablas" color="#ffcc33" meeting="false" start="2025-06-25" duration="3" complete="0" expand="true">
+                    <task id="121" uid="7dd82e48d7fd4e628a4598d59c1784b1" name="Correción diseño ME-R" color="#ffcc33" meeting="false" start="2025-07-14" duration="63" complete="0" thirdDate="2025-07-14" thirdDate-constraint="1" expand="true">
+                        <depend id="69" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="69" uid="a53ea1edf3f94736bd41b6b29d8eb406" name="Pasaje a tablas" color="#ffcc33" meeting="false" start="2025-09-15" duration="12" complete="0" expand="true">
                         <depend id="70" type="2" difference="0" hardness="Strong"/>
                     </task>
-                    <task id="70" uid="c6fa6b1c71274135bd5fd2df1070aced" name="Normalización" color="#ffcc33" meeting="false" start="2025-07-03" duration="3" complete="0" thirdDate="2025-07-03" thirdDate-constraint="1" expand="true"/>
+                    <task id="70" uid="c6fa6b1c71274135bd5fd2df1070aced" name="Normalización" color="#ffcc33" meeting="false" start="2025-09-27" duration="5" complete="0" thirdDate="2025-07-03" thirdDate-constraint="1" expand="true"/>
+                    <task id="143" uid="5aa8c25aef1a470aaaf47ab0cadc9cb6" name="Pasaje a tablas (corrección)" meeting="false" start="2025-09-09" duration="4" complete="0" expand="true"/>
+                    <task id="140" uid="f476cd2d73224f468ff127ba63abfe65" name="Creación de base de datos" meeting="false" start="2025-09-02" duration="1" complete="0" expand="true"/>
                 </task>
             </task>
-            <task id="4" uid="372dcd4a513b46949f489d8e6b995648" name="Implementación" meeting="false" start="2025-07-01" duration="9" complete="0" expand="true">
-                <task id="65" uid="24cc6afed7934bafa6c470e0766382cb" name="Adm. de Sistemas Operativos" meeting="false" start="2025-07-01" duration="9" complete="0" expand="true">
+            <task id="4" uid="372dcd4a513b46949f489d8e6b995648" name="Implementación" meeting="false" start="2025-07-01" duration="77" complete="0" expand="true">
+                <task id="126" uid="aad9375165c6434a9b79b6002f3184a2" name="Tutoría de Proyecto UTULAB" meeting="false" start="2025-08-13" duration="22" complete="0" expand="true">
+                    <task id="137" uid="8fcedbe11b384e00878a4009966c3feb" name="Pedido del armado de los llaveros" color="#cc00cc" meeting="false" start="2025-08-13" duration="1" complete="0" expand="true"/>
+                    <task id="134" uid="6cde6fd885ba4b40babd41d3fa6ed352" name="Pedido del armado de los pines" color="#cc00cc" meeting="false" start="2025-08-26" duration="1" complete="0" expand="true"/>
+                    <task id="127" uid="5cf8d9d7304b40afbe77278596600466" name="Pedido de las impresiones de las fichas" color="#cc00cc" meeting="false" start="2025-08-28" duration="1" complete="0" expand="true"/>
+                    <task id="136" uid="bb011b0d847941e7b65b7e92a8192422" name="Recogida de los pines" color="#cc00cc" meeting="false" start="2025-08-30" duration="1" complete="0" expand="true"/>
+                    <task id="128" uid="c7ea1679ba8b4f698f9d49b57d4aca2b" name="Recogida de las fichas impresas" color="#cc00cc" meeting="false" start="2025-09-01" duration="1" complete="0" expand="true"/>
+                    <task id="135" uid="c864094f6e6c45898c0af96a68c3cc0f" name="Recogida de los llaveros" color="#cc00cc" meeting="false" start="2025-09-03" duration="1" complete="0" expand="true"/>
+                </task>
+                <task id="65" uid="24cc6afed7934bafa6c470e0766382cb" name="Adm. de Sistemas Operativos" meeting="false" start="2025-07-01" duration="77" complete="0" expand="true">
                     <task id="67" uid="db602c33d6794b9ba82489609696c55d" name="Instalación de Fedora Server 42" color="#333300" meeting="false" start="2025-07-01" duration="1" complete="0" expand="true">
                         <depend id="73" type="2" difference="0" hardness="Strong"/>
                     </task>
@@ -190,18 +222,28 @@
                     </task>
                     <task id="74" uid="e8df318cc27748a0b410dfd0ceb1c91a" name="Inicio del servicio SSH" color="#333300" meeting="false" start="2025-07-03" duration="1" complete="0" expand="true">
                         <depend id="75" type="2" difference="0" hardness="Strong"/>
+                        <depend id="117" type="2" difference="0" hardness="Strong"/>
+                        <depend id="119" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="75" uid="b9955b96444d4c9dbbc2390daf5b7897" name="Revisión del firewall" color="#333300" meeting="false" start="2025-07-04" duration="1" complete="0" expand="true"/>
+                    <task id="117" uid="ce5299f1b84e4809ba85ed55762d6934" name="Configuración SSH" color="#333300" meeting="false" start="2025-07-04" duration="1" complete="0" expand="true"/>
+                    <task id="119" uid="292fba0b4a1b42cda1c278651cf22f9b" name="Modificación configuración SSH" color="#333300" meeting="false" start="2025-07-04" duration="1" complete="0" expand="true">
+                        <depend id="118" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="118" uid="84672e8ff3d74a46985c64da4dd2174b" name="Clave pública y privada" color="#333300" meeting="false" start="2025-07-05" duration="1" complete="0" expand="true"/>
+                    <task id="125" uid="c69f93fa414946a6bd15040f60c72e2b" name="Continuación del script" color="#333300" meeting="false" start="2025-08-26" duration="21" complete="0" expand="true"/>
+                    <task id="139" uid="854fa3d549f54fb89558c974751964b2" name="Creación de los contenedores de Docker" color="#009900" meeting="false" start="2025-09-12" duration="3" complete="0" expand="true"/>
                 </task>
             </task>
             <task id="72" uid="0bde0605b8944d2593d36e4ba86d5f49" name="Programación Full-Stack" meeting="false" start="2025-07-07" duration="2" complete="0" expand="true">
-                <task id="71" uid="b54980fc2f8642c3aa631eebbfe953a4" name="Implementación del repositorio" meeting="false" start="2025-07-07" duration="2" complete="0" expand="true">
+                <task id="71" uid="b54980fc2f8642c3aa631eebbfe953a4" name="Implementación del repositorio" meeting="false" start="2025-07-07" duration="2" complete="0" expand="false">
                     <task id="27" uid="606571ee393b4f8c913b0c84b8d26002" name="Creación del repositorio en Git" color="#ff0033" meeting="false" start="2025-07-07" duration="1" complete="0" expand="true">
                         <depend id="52" type="2" difference="0" hardness="Strong"/>
                     </task>
                     <task id="52" uid="c75c746584fc4fb499f0c5a19d981072" name="Creación de la estructura del repositorio" color="#ff0033" meeting="false" start="2025-07-08" duration="1" complete="0" thirdDate="2025-07-07" thirdDate-constraint="1" expand="true"/>
                 </task>
             </task>
+            <task id="145" uid="d148fb4cf9a2455485c3d8c44f312360" name="front-controller de la aplicación" meeting="false" start="2025-08-30" duration="1" complete="0" expand="true"/>
             <task id="5" uid="c8e42a1c9c16476db368fb395a88d35c" name="Testing" meeting="false" start="2025-09-08" duration="7" complete="0" expand="true"/>
         </task>
     </tasks>
@@ -277,6 +319,16 @@
         <allocation task-id="108" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="109" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="110" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="111" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="113" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="114" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="115" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="117" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="118" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="119" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="139" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="6" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="10" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
@@ -322,6 +374,21 @@
         <allocation task-id="97" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="100" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="102" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="112" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="120" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="121" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="125" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="129" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="130" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="131" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="134" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="133" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="137" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="135" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="136" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="138" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="143" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="145" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="6" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="11" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
@@ -358,6 +425,10 @@
         <allocation task-id="107" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="109" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="110" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="122" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="123" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="141" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="142" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="6" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="11" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
@@ -384,6 +455,10 @@
         <allocation task-id="17" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="96" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="110" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="129" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="141" resource-id="3" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="142" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="145" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="7" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="13" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="16" resource-id="4" function="Default:0" responsible="false" load="100.0"/>
